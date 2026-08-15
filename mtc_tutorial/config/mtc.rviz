@@ -1,0 +1,50 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/ToolProperties
+    Name: Tool Properties
+  - Class: rviz_common/Time
+    Name: Time
+  - Class: rviz_common/JointStatePanel
+    Name: Joint State
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Name: RobotModel
+      Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Alpha: 0.8
+    - Name: Grid
+      Class: rviz_default_plugins/Grid
+      Enabled: true
+    - Name: MotionPlanning
+      Class: moveit_rviz_plugin/MotionPlanning
+      Enabled: false   # turn off to avoid clutter
+    - Name: InteractiveMarker
+      Class: rviz_default_plugins/InteractiveMarker
+      Enabled: true
+    - Name: MarkerArray
+      Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+    - Name: Text
+      Class: rviz_default_plugins/Text
+      Enabled: true
+      Topic: /mtc_status
+      Color: 255; 255; 255
+      FontSize: 30
+      Position: 0; 1; 0
+    - Name: PlanningScene
+      Class: moveit_rviz_plugin/PlanningScene
+      Enabled: true
+  Global Options:
+    Fixed Frame: panda_link0
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 2.5
+      Yaw: 0.5
+      Pitch: 0.3
