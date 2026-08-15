@@ -1,4 +1,4 @@
-# 🤖 My MoveIt 2 Pick-and-Place Project (with a Custom GUI)
+My MoveIt 2 Pick-and-Place Project (with a Custom GUI)
 
 This is a project I built to control a Franka Emika Panda robot arm using MoveIt Task Constructor (MTC), with my own Tkinter GUI on top so I could set a drop location by hand and just hit Start.
 
