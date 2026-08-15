@@ -6,7 +6,7 @@ def generate_launch_description():
     moveit_config = MoveItConfigsBuilder("moveit_resources_panda").to_dict()
 
     mtc_node = Node(
-        package="mtc_tutorial",
+        package="ataullah_ra",
         executable="mtc_node",
         output="screen",
         parameters=[moveit_config],

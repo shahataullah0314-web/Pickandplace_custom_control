@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>mtc_tutorial</name>
+  <name>ataullah_ra</name>
   <version>0.0.0</version>
   <description>Pick and place with interactive GUI</description>
   <maintainer email="user@todo.com">ataullah</maintainer>
